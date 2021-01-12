@@ -61,10 +61,6 @@ class BookRouterDelegate extends RouterDelegate<BookRoutePath>
             child: BooksListRoute(
               books: books,
               onTapped: _handleBookTapped,
-              onAuthd: () {
-                showAuth = true;
-                notifyListeners();
-              },
             ),
           ),
           //从这开始后面的会覆盖到前一个MaterialPage之上
