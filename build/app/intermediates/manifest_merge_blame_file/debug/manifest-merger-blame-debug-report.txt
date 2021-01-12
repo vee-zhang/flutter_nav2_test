@@ -1,0 +1,108 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutter_nav2_test"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/william/Downloads/flutter_nav2_test/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/william/Downloads/flutter_nav2_test/android/app/src/debug/AndroidManifest.xml:6:22-64
+15
+16    <application
+16-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:2:3-20:17
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] /Users/william/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:2:50-84
+20        android:label="flutter_nav2_test" >
+20-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:2:16-49
+21        <activity
+21-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:3:5-16:16
+22            android:name="com.example.flutter_nav2_test.MainActivity"
+22-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:3:15-43
+23            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+23-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:3:110-260
+24            android:hardwareAccelerated="true"
+24-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:3:261-295
+25            android:launchMode="singleTop"
+25-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:3:44-74
+26            android:theme="@style/LaunchTheme"
+26-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:3:75-109
+27            android:windowSoftInputMode="adjustResize" >
+27-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:3:296-338
+28            <meta-data
+28-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:4:7-114
+29                android:name="io.flutter.embedding.android.NormalTheme"
+29-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:4:18-73
+30                android:resource="@style/NormalTheme" />
+30-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:4:74-111
+31            <meta-data
+31-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:5:7-132
+32                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+32-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:5:18-82
+33                android:resource="@drawable/launch_background" />
+33-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:5:83-129
+34
+35            <intent-filter>
+35-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:6:7-9:23
+36                <action android:name="android.intent.action.MAIN" />
+36-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:7:9-60
+36-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:7:17-58
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:8:9-68
+38-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:8:19-66
+39            </intent-filter>
+40            <intent-filter>
+40-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:10:7-15:23
+41                <action android:name="android.intent.action.VIEW" />
+41-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:11:9-61
+41-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:11:17-58
+42
+43                <category android:name="android.intent.category.DEFAULT" />
+43-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:12:9-68
+43-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:12:19-65
+44                <category android:name="android.intent.category.BROWSABLE" />
+44-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:13:9-70
+44-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:13:19-67
+45
+46                <data
+46-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:14:9-99
+47                    android:host="flutterbooksample.com"
+47-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:14:37-73
+48                    android:pathPrefix="/"
+48-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:14:74-96
+49                    android:scheme="http" />
+49-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:14:15-36
+50            </intent-filter>
+51        </activity>
+52        <!--
+53         Don't delete the meta-data below.
+54             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+55        -->
+56        <meta-data
+56-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:19:5-68
+57            android:name="flutterEmbedding"
+57-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:19:16-47
+58            android:value="2" />
+58-->/Users/william/Downloads/flutter_nav2_test/android/app/src/main/AndroidManifest.xml:19:48-65
+59
+60        <activity
+60-->[:url_launcher] /Users/william/Downloads/flutter_nav2_test/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+61            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+61-->[:url_launcher] /Users/william/Downloads/flutter_nav2_test/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+62            android:exported="false"
+62-->[:url_launcher] /Users/william/Downloads/flutter_nav2_test/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+63            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+63-->[:url_launcher] /Users/william/Downloads/flutter_nav2_test/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+64    </application>
+65
+66</manifest>

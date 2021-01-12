@@ -1,0 +1,4 @@
+#Tue Jan 12 11:53:34 CST 2021
+base.0=/Users/william/Downloads/flutter_nav2_test/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
